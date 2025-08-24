@@ -12,4 +12,4 @@ Bio: Estudiante de Ingeñerpia en Informática apasionado por la tecnología y l
 - Tengo conocimienntos en Java, .Net y React
 
 ## Contacto
-- federico.silverag@gmail.com
+- federico.silverag@correo.ucu.edu.uy

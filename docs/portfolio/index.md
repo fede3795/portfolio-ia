@@ -10,4 +10,5 @@ Bienvenido a las entradas del portafolio. Usá la plantilla para crear nuevas p�
 
 - Plantilla: [plantilla.md](plantilla.md)
 - Primera entrada: [01-primera-entrada.md](01-primera-entrada.md)
+- Práctico 1: [02-Práctica1_EDA_Titanic.md](02-Práctica1_EDA_Titanic.md)
 

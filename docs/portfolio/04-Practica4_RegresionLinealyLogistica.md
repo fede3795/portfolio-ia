@@ -53,11 +53,12 @@ Los resultados de cada modelo demuestran su efectividad en la tarea para la que 
     - **Exactitud (Accuracy):** 95.6% (El modelo acierta el diagnóstico en más de 95 de cada 100 casos).
     - **F1-Score:** 0.965 (Un excelente balance entre la precisión y la capacidad de detectar todos los casos).
     - **Matriz de Confusión:**
-        | | Predijo: Maligno | Predijo: Benigno |
-        | :--- | :---: | :---: |
-        | **Real: Maligno** | 39 | 4 |
-        | **Real: Benigno** | 1 | 70 |
-    
+
+      | | Predijo: Maligno | Predijo: Benigno |
+      | :--- | :---: | :---: |
+      | **Real: Maligno** | 39 | 4 |
+      | **Real: Benigno** | 1 | 70 |
+
     - **Observación Clave:** El modelo solo cometió un error grave (Falso Negativo), prediciendo "benigno" cuando era "maligno".
 
 ## Reflexión

@@ -69,15 +69,15 @@ La evidencia principal de esta práctica son los resultados del modelo, que demu
     La matriz de confusión nos muestra exactamente en qué se equivoca el modelo, siendo los Falsos Negativos (predecir que alguien no sobrevivió cuando sí lo hizo) el error más común.
 
     ```text
-    Confusion matrix (LogReg):
     [[98 12]
      [21 48]]
     ```
     **Interpretación de la Matriz:**
-    | | Predijo: No | Predijo: Sí |
+
+    | | Predijo: No sobrevivió | Predijo: Sobrevivió |
     | :--- | :---: | :---: |
-    | **Real: No** | **98** (VN) | **12** (FP) |
-    | **Real: Sí** | **21** (FN) | **48** |
+    | **Real: No sobrevivió** | 98 (VN) | 12 (FP) |
+    | **Real: Sobrevivió** | 21 (FN) | 48 (VP) |
 
 ## Reflexión
 - **Qué aprendí:** Comprendí el flujo de trabajo completo para preparar datos y construir un primer modelo. La ingeniería de características no es solo una técnica, es un arte que mejora drásticamente el rendimiento. Entendí que un modelo simple pero bien evaluado es mucho más valioso que uno complejo sin un punto de comparación.

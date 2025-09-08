@@ -46,7 +46,7 @@ Los resultados clave del notebook se resumen en las siguientes visualizaciones y
     - **Resultado KFold:** 0.7690 ± 0.0098
     - **Resultado StratifiedKFold:** 0.7618 ± 0.0061
     
-    `![Comparación de CV](../assets/KFoldVsStratifiedKFold.png){ width="500" }`
+    ![Comparación de CV](../assets/KFoldVsStratifiedKFold.png){ width="500" }
 
 ???+ info "Evidencia 2: Comparación de Rendimiento de Modelos"
 
@@ -56,7 +56,7 @@ Los resultados clave del notebook se resumen en las siguientes visualizaciones y
     - **Logistic Regression:** 0.7442 ± 0.0071
     - **Ridge Classifier:** 0.7096 ± 0.0047
 
-    `![Torneo de Modelos](../assets/TorneoDeModelos.png){ width="600" }`
+    ![Torneo de Modelos](../assets/TorneoDeModelos.png){ width="600" }
 
 ???+ info "Evidencia 3: Importancia de las Características"
 
@@ -66,7 +66,7 @@ Los resultados clave del notebook se resumen en las siguientes visualizaciones y
     2.  **Curricular units 2nd sem (grade):** 0.1193
     3.  **Curricular units 1st sem (approved):** 0.0987
 
-    `![Importancia de Características](../assets/ImportanciaCaracteristicas.png){ width="500" }`
+    ![Importancia de Características](../assets/ImportanciaCaracteristicas.png){ width="500" }
 
 ## Reflexión
 - **Qué aprendí:** Esta práctica consolidó la importancia de un proceso de validación riguroso. Aprendí que usar `Pipeline` no es solo una buena práctica, sino una necesidad para evitar el *data leakage*. La comparación sistemática de modelos y la posterior optimización de hiperparámetros es un flujo de trabajo estándar para maximizar el rendimiento de forma controlada.

@@ -41,21 +41,21 @@ Los resultados visuales y numéricos demostraron la existencia de grupos de clie
     El Método del Codo y el Análisis de Silueta se utilizaron para determinar el número óptimo de clusters. El gráfico de silueta generalmente ofrece una respuesta más clara, mostrando un pico en el valor de K que representa el mejor balance entre cohesión y separación de los grupos.
 
     
-    `![Búsqueda de K](../assets/practica6-k-optimo.png){ width="600" }`
+    ![Búsqueda de K](../assets/practica6-k-optimo.png){ width="600" }
 
 ???+ info "Evidencia 2: Visualización de Clusters Finales con PCA"
 
     La reducción de dimensionalidad con PCA permitió visualizar los segmentos en un gráfico de 2D. Se pueden observar grupos de clientes compactos y bien separados, confirmando la validez de la segmentación.
 
     
-    `![Clusters PCA](../assets/practica6-clusters-pca.png){ width="500" }`
+    ![Clusters PCA](../assets/practica6-clusters-pca.png){ width="500" }
 
 ???+ info "Evidencia 3: Perfil Promedio de los Clusters"
 
     El mapa de calor resume las características promedio de cada segmento. Este gráfico es clave para la interpretación de negocio, ya que permite identificar rápidamente el perfil de cada grupo (ej. Cluster X: Ingreso alto, Gasto alto).
 
     
-    `![Perfil de Clusters](../assets/practica6-heatmap.png){ width="500" }`
+    ![Perfil de Clusters](../assets/practica6-heatmap.png){ width="500" }
 
 ???+ info "Evidencia 4: Comparación Final de Algoritmos"
 

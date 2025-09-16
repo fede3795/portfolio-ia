@@ -70,3 +70,7 @@ Los hallazgos visuales más importantes se resumen en los siguientes gráficos, 
 - **Qué aprendí:** Comprendí que el EDA es un paso indispensable antes de entrenar cualquier modelo. Las visualizaciones son increíblemente efectivas para contar una historia con los datos y descubrir patrones que no son obvios en una tabla.
 - **Qué mejorarías:** Para un análisis futuro, aplicaría una estrategia de imputación de datos más robusta para la edad, rellenando los valores faltantes con la mediana de edad según la clase y el sexo del pasajero.
 - **Próximos Pasos:** El siguiente paso lógico es el **preprocesamiento de datos**: manejar los valores faltantes, convertir variables categóricas a numéricas y preparar el dataset para entrenar un modelo de clasificación predictivo.
+
+## Referencias
+
+- **Notebook de Análisis:** [Práctica 1: Análisis Exploratorio del Dataset del Titanic](https://colab.research.google.com/drive/1JZ9IPVAu8L8f0huMl2OI9YZWpgGqIz4M?usp=sharing)

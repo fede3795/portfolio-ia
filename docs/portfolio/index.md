@@ -15,4 +15,5 @@ Bienvenido a las entradas del portafolio. Usá la plantilla para crear nuevas p�
 - Práctico 4: [04-Practica4_RegresiónLinealyLogística.md](04-Practica4_RegresionLinealyLogistica.md)
 - Práctico 5: [05-Practica5_ValidaciónySelecciónDeModelos.md](05-Practica5_ValidaciónySelecciónDeModelos.md)
 - Práctico 6: [06-Practica6_ClusteringPCA-SegmentacionDeClientes.md](06-Practica6_ClusteringPCA-SegmentacionDeClientes.md)
+- Práctico 7: [07-Practica7_DePerceptronARedesNeuronales.md](07-Practica7_DePerceptronARedesNeuronales.md)
 

@@ -49,15 +49,15 @@ La evidencia visual más importante de esta práctica es la comparación de las 
 
     Las curvas de pérdida y precisión del entrenamiento del modelo de TensorFlow muestran una buena convergencia. Se observa un leve sobreajuste, ya que la precisión de entrenamiento alcanza el 100% mientras que la de validación se estabiliza en un valor inferior, y se abre una brecha entre las dos curvas de pérdida.
 
-    *(Aquí puedes poner la captura de las curvas de Loss y Accuracy de TensorFlow)*
-    `![Curvas de Aprendizaje](../assets/practica7-curvas.png){ width="600" }`
+    
+    ![Curvas de Aprendizaje](../assets/practica7-curvas.png){ width="600" }`
     
 ???+ info "Evidencia 3: Comparación de Matrices de Confusión"
 
     Las matrices de confusión de los tres modelos (Sklearn, TensorFlow, PyTorch) en el dataset real fueron muy similares, todas demostrando un alto rendimiento con muy pocos errores de clasificación. Esto valida la robustez de los tres frameworks.
     
-    *(Aquí puedes poner la captura de las 3 matrices de confusión comparativas)*
-    `![Matrices de Confusión](../assets/practica7-matrices.png){ width="700" }`
+    
+    ![Matrices de Confusión](../assets/practica7-matrices.png){ width="700" }`
 
 ## Reflexión
 - **Qué aprendí:** Comprendí la diferencia fundamental entre un modelo lineal (perceptrón) y uno no lineal (MLP), y por qué las capas ocultas con funciones de activación son cruciales. Aprendí a implementar redes neuronales básicas en tres de los frameworks más importantes: Scikit-learn, TensorFlow y PyTorch Lightning, entendiendo sus diferentes niveles de abstracción y casos de uso.

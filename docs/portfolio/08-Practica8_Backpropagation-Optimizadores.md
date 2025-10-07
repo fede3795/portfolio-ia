@@ -172,6 +172,6 @@ MLP **3×128** + **BN** + **Dropout(0.10)** + **L2 (≈5e-5)**, **Adam** con **L
 - Un **próximo paso natural** es repetir la receta en una **CNN compacta** (con *data augmentation*), donde se espera superar con claridad el techo del MLP en CIFAR-10.
 
 ## Referencias
-- Documentación oficial de TensorFlow: capas densas, activaciones, `BatchNormalization`, `Dropout`, `regularizers.l2`, inicializadores, optimizadores (`Adam`, `SGD`, `RMSprop`, `AdamW`) y callbacks (`EarlyStopping`, `ReduceLROnPlateau`, `ModelCheckpoint`, `LearningRateScheduler`).  
-- Guías de TensorBoard: comparación de *runs*, escalas e histogramas.
+- **Documentación oficial de TensorFlow:** capas densas, activaciones, `BatchNormalization`, `Dropout`, `regularizers.l2`, inicializadores, optimizadores (`Adam`, `SGD`, `RMSprop`, `AdamW`) y callbacks (`EarlyStopping`, `ReduceLROnPlateau`, `ModelCheckpoint`, `LearningRateScheduler`).  
+- **Guías de TensorBoard:** comparación de *runs*, escalas e histogramas.
 - **Notebook de Análisis:** [https://colab.research.google.com/drive/1y0_rvGbG8oD9hEtveTUiNiQmiG7Ow6VV?usp=sharing](https://colab.research.google.com/drive/1y0_rvGbG8oD9hEtveTUiNiQmiG7Ow6VV?usp=sharing)

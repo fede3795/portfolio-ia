@@ -5,8 +5,7 @@ date: 2025-01-01
 
 # Portafolio
 
-Bienvenido a las entradas del portafolio. Usá la plantilla para crear nuevas páginas numeradas
-(`01-...`, `02-...`).
+
 
 - Plantilla: [plantilla.md](plantilla.md)
 - Primera entrada: [01-primera-entrada.md](01-primera-entrada.md)
@@ -16,4 +15,5 @@ Bienvenido a las entradas del portafolio. Usá la plantilla para crear nuevas p�
 - Práctico 5: [05-Practica5_ValidaciónySelecciónDeModelos.md](05-Practica5_ValidaciónySelecciónDeModelos.md)
 - Práctico 6: [06-Practica6_ClusteringPCA-SegmentacionDeClientes.md](06-Practica6_ClusteringPCA-SegmentacionDeClientes.md)
 - Práctico 7: [07-Practica7_DePerceptronARedesNeuronales.md](07-Practica7_DePerceptronARedesNeuronales.md)
+- Práctico 8: [08-Practica8_Backpropagation-Optimizadores.md](08-Practica8_Backpropagation-Optimizadores.md)
 

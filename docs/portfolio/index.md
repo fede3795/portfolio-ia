@@ -16,4 +16,5 @@ date: 2025-01-01
 - Práctico 6: [06-Practica6_ClusteringPCA-SegmentacionDeClientes.md](06-Practica6_ClusteringPCA-SegmentacionDeClientes.md)
 - Práctico 7: [07-Practica7_DePerceptronARedesNeuronales.md](07-Practica7_DePerceptronARedesNeuronales.md)
 - Práctico 8: [08-Practica8_Backpropagation-Optimizadores.md](08-Practica8_Backpropagation-Optimizadores.md)
+- Práctico 10: [10-Practica10_DataAugmentationAvanzadoyExplicabilidad.md](10-Practica10_DataAugmentationAvanzadoyExplicabilidad.md)
 

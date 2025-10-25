@@ -174,8 +174,8 @@ Se ejecutaron experimentos adicionales manteniendo el código base y completando
 - El Transfer Learning con MobileNetV2 congelado fue inferior en CIFAR-10 (data pequeña y 32×32), pero mejoró sensiblemente tras fine-tuning.
 - EfficientNetB0 con FT de 30 capas mostró el mejor perfil de validación en el set base.
 - En datasets de dominio:
-  -- PlantVillage (versión submuestreada) sirvió como validación rápida del pipeline.
-  -- Cats vs Dogs (TFDS) alcanzó métricas muy altas (val_acc ≈ 98%).
+      - PlantVillage (versión submuestreada) sirvió como validación rápida del pipeline.
+      - Cats vs Dogs (TFDS) alcanzó métricas muy altas (val_acc ≈ 98%).
 
 ## Reflexión
 

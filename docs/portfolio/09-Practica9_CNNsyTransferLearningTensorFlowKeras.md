@@ -54,7 +54,7 @@ Se configuró TensorFlow con soporte de GPU (cuando estaba disponible) y seeds p
 
 - Dos bloques `Conv2D → ReLU → MaxPooling2D`.
 - `Flatten → Dense(512) → Dense(10, softmax)`.
-- Optimizador **Adam** (`lr=1e-3`), pérdida `categorical_crossentropy`.
+- Optimizador Adam (`lr=1e-3`), pérdida `categorical_crossentropy`.
 
 ???+ info "Evidencia: Arquitectura CNN simple"
     ![CNN Simple Summary](../assets/p9_cnn_simple_summary.png){ width="740" }
@@ -63,8 +63,8 @@ Se configuró TensorFlow con soporte de GPU (cuando estaba disponible) y seeds p
 
 - `MobileNetV2(weights='imagenet', include_top=False)`.
 - Congelado completo + `Flatten → Dense(10)`.
-- Compilación con **Adam** `lr=1e-3`.
-- (Más adelante) **fine-tuning** de las últimas capas con `lr=1e-4`.
+- Compilación con Adam `lr=1e-3`.
+- (Más adelante) fine-tuning de las últimas capas con `lr=1e-4`.
 
 ???+ info "Evidencia: Arquitectura TL con MobileNetV2"
     ![TL MobileNetV2 Summary](../assets/p9_tl_mobilenetv2_summary.png){ width="700" }
@@ -81,8 +81,8 @@ Se entrenaron **10 épocas** con `EarlyStopping(monitor='val_accuracy', patience
 
 ### 6) Evaluación y comparación
 
-- Se calcularon métricas en test y se generaron gráficos de precisión/pérdida y análisis de **overfitting** (gap train-val).
-- Se imprimieron **classification reports** por clase.
+- Se calcularon métricas en test y se generaron gráficos de precisión/pérdida y análisis de overfitting (gap train-val).
+- Se imprimieron classification reports por clase.
 
 ???+ info "Evidencia: Comparación global y curvas"
     ![Comparación y curvas](../assets/p9_eval_comparison.png){ width="1100" }
@@ -101,7 +101,7 @@ Se ejecutaron experimentos adicionales manteniendo el código base y completando
 
 ### Experimento A — **CNN con BN + Dropout**
 
-- Arquitectura: se añadieron **BatchNormalization** y **Dropout** y se sustituyó `Flatten` por **GlobalAveragePooling2D**.
+- Arquitectura: se añadieron BatchNormalization y Dropout y se sustituyó `Flatten` por GlobalAveragePooling2D.
 - Objetivo: mejorar generalización y estabilidad.
 
 ???+ info "A1) Summary CNN BN+DO"
@@ -120,7 +120,7 @@ Se ejecutaron experimentos adicionales manteniendo el código base y completando
 
 ### Experimento C — **Fine-tuning (MobileNetV2, últimas 20 capas)**
 
-- Descongelado selectivo (tail) + **Adam(1e-4)**.
+- Descongelado selectivo (tail) + Adam(1e-4).
 - Mejora de *feature alignment* sobre CIFAR-10.
 
 ???+ info "C) Log fine-tuning (20 capas)"
@@ -128,7 +128,7 @@ Se ejecutaron experimentos adicionales manteniendo el código base y completando
 
 ### Experimento D — **EfficientNetB0 (frozen) + fine-tuning (últimas 30)**
 
-- Se probó `EfficientNetB0` congelado y luego FT de 30 capas con **Adam(1e-4)**.
+- Se probó `EfficientNetB0` congelado y luego FT de 30 capas con Adam(1e-4).
 
 ???+ info "D1) Summary EfficientNetB0 (frozen)"
     ![D1 Summary](../assets/p9_expD_efficientnetb0_summary.png){ width="820" }
@@ -146,12 +146,12 @@ Se ejecutaron experimentos adicionales manteniendo el código base y completando
 
 ---
 
-## Next Steps: Datasets de Dominio
+## Datasets de Dominio
 
 ### PlantVillage (multi-clase, submuestreo controlado)
 
 - Descarga con `kagglehub` y submuestreo por clase para ajustar a RAM.
-- Modelo: **MobileNetV2** (congelado) + GAP + Dense.
+- Modelo: MobileNetV2 (congelado) + GAP + Dense.
 - Entrenamiento corto (5 épocas) para *sanity check*.
 
 ???+ info "Evidencia: Log PlantVillage (submuestreo)"
@@ -159,9 +159,9 @@ Se ejecutaron experimentos adicionales manteniendo el código base y completando
 
 ### Cats vs Dogs (binario, TFDS)
 
-- Carga con **TFDS**, re-escala a 160×160, balanceo simple y AUC.
-- Modelo: **MobileNetV2** (congelado) + GAP + Dense(1, sigmoid).
-- Resultado validación: **val_acc ≈ 0.98**, **val_auc ≈ 0.998**.
+- Carga con TFDS, re-escala a 160×160, balanceo simple y AUC.
+- Modelo: MobileNetV2 (congelado) + GAP + Dense(1, sigmoid).
+- Resultado validación: val_acc ≈ 0.98, val_auc ≈ 0.998.
 
 ???+ info "Evidencia: Entrenamiento Cats vs Dogs (TFDS)"
     ![Cats vs Dogs Train](../assets/p9_catsdogs_train.png){ width="1100" }
@@ -170,22 +170,22 @@ Se ejecutaron experimentos adicionales manteniendo el código base y completando
 
 ## Resultados destacados
 
-- En **CIFAR-10**, la **CNN simple** alcanzó ~**70%** de *test accuracy* con claro **gap** train-val (overfitting moderado).
-- El **Transfer Learning** con MobileNetV2 **congelado** fue inferior en CIFAR-10 (data pequeña y 32×32), pero **mejoró** sensiblemente tras **fine-tuning**.
-- **EfficientNetB0** con FT de 30 capas mostró el **mejor perfil de validación** en el set base.
+- En CIFAR-10, la CNN simple alcanzó ~70% de *test accuracy* con claro gap train-val (overfitting moderado).
+- El Transfer Learning con MobileNetV2 congelado fue inferior en CIFAR-10 (data pequeña y 32×32), pero mejoró sensiblemente tras fine-tuning.
+- EfficientNetB0 con FT de 30 capas mostró el mejor perfil de validación en el set base.
 - En datasets de dominio:
   - **PlantVillage** (versión submuestreada) sirvió como validación rápida del pipeline.
-  - **Cats vs Dogs (TFDS)** alcanzó métricas **muy altas** (val_acc ≈ **98%**).
+  - **Cats vs Dogs (TFDS)** alcanzó métricas muy altas (val_acc ≈ 98%).
 
 ## Reflexión
 
-- **Transfer Learning** ofrece *features* reutilizables, pero **no siempre gana congelado** en imágenes muy pequeñas (32×32) y dominio distante; el **fine-tuning** marca la diferencia.
-- **BN + Dropout** reducen el overfitting en la CNN pequeña.
-- La elección de **optimizador y LR** impacta de forma notable; **Adam(5e-4)** fue un buen compromiso en las pruebas rápidas.
+- Transfer Learning ofrece *features* reutilizables, pero no siempre gana congelado en imágenes muy pequeñas (32×32) y dominio distante; el fine-tuning marca la diferencia.
+- BN + Dropout reducen el overfitting en la CNN pequeña.
+- La elección de optimizador y LR impacta de forma notable; Adam(5e-4) fue un buen compromiso en las pruebas rápidas.
 - Para problemas reales, conviene:
-  1) iniciar con **TL congelado** para verificar señal,
-  2) **descongelar por bloques** con **LR bajo**,
-  3) usar **augmentación** y **EarlyStopping/ReduceLROnPlateau**.
+  1) iniciar con TL congelado para verificar señal,
+  2) descongelar por bloques con LR bajo,
+  3) usar augmentación y EarlyStopping/ReduceLROnPlateau.
 
 
 ## Referencias

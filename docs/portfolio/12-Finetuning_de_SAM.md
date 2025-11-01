@@ -64,26 +64,40 @@ El análisis final incluyó una evaluación de fallos, mostrando una reducción 
 
 ???+ info "Evidencia 3: Distribución de métricas (IoU, Dice, Precision, Recall)"
 
-![Distribución de Métricas](../assets/p12_eval_hists_24.png){ width="700" }
+    ![Distribución de Métricas](../assets/p12_eval_hists_24.png){ width="700" }
 
 ???+ info "Evidencia 4: Comparación cualitativa Pretrained vs Fine-tuned"
 
-![Comparación Visual](../assets/p12_visual_comparison_32.png){ width="700" }
+    ![Comparación Visual](../assets/p12_visual_comparison_32.png){ width="700" }
 
 **Ejemplos:**
-- `p12_visual_comparison_28.png` → mejora notable (IoU +0.26, Dice +0.18).  
-- `p12_visual_comparison_30.png` → leve mejora (IoU +0.0056).  
-- `p12_visual_comparison_32.png` → mejora extrema (IoU +0.72, Dice +0.84).
+
+- ![Comparación Notable](../assets/p12_visual_comparison_28.png){ width="700" }  
+  → Mejora notable (**IoU +0.26**, **Dice +0.18**).
+
+- ![Comparación Leve](../assets/p12_visual_comparison_30.png){ width="700" }  
+  → Leve mejora (**IoU +0.0056**).
+
+- ![Comparación Extrema](../assets/p12_visual_comparison_32.png){ width="700" }  
+  → Mejora extrema (**IoU +0.72**, **Dice +0.84**).
 
 ???+ info "Evidencia 5: Análisis de errores"
 
-| Imagen | Archivo | Descripción |
-|--------|----------|--------------|
-| **Pretrained Failures (7 casos)** | `p12_failures_pretrained_text_33.png` | Consola con resultados del análisis. |
-| **Failure Case 1** | `p12_failures_pretrained_case1_34.png` | El modelo no detecta agua (IoU≈0.000). |
-| **Failure Case 2** | `p12_failures_pretrained_case2_35.png` | Predicción mínima (IoU≈0.001). |
-| **Failure Case 3** | `p12_failures_pretrained_case3_36.png` | Región muy pequeña detectada. |
-| **Fine-tuned Failures (2 casos)** | `p12_failures_finetuned_text_37.png` | Reducción del 71.4% en fallos. |
+    **Pretrained Failures (7 casos)**  
+    [![Consola](../assets/p12_failures_pretrained_text_33.png){ width="420" }](../assets/p12_failures_pretrained_text_33.png)
+
+    **Failure Case 1**  
+    [![Caso 1](../assets/p12_failures_pretrained_case1_34.png){ width="420" }](../assets/p12_failures_pretrained_case1_34.png)
+
+    **Failure Case 2**  
+    [![Caso 2](../assets/p12_failures_pretrained_case2_35.png){ width="420" }](../assets/p12_failures_pretrained_case2_35.png)
+
+    **Failure Case 3**  
+    [![Caso 3](../assets/p12_failures_pretrained_case3_36.png){ width="420" }](../assets/p12_failures_pretrained_case3_36.png)
+
+    **Fine-tuned Failures (2 casos)**  
+    [![Consola FT](../assets/p12_failures_finetuned_text_37.png){ width="420" }](../assets/p12_failures_finetuned_text_37.png)
+
 
 ---
 

@@ -1,9 +1,9 @@
 ---
-title: "Práctica 12: Fine-tuning de SAM para Segmentación de Inundaciones"
+title: "Especializando la mirada de SAM: segmentación de inundaciones mediante fine-tuning"
 date: 2025-11-01
 ---
 
-# Práctica 12: Fine-tuning de SAM para Segmentación de Inundaciones
+# Especializando la mirada de SAM: segmentación de inundaciones mediante fine-tuning
 
 En esta práctica se realizó el fine-tuning del modelo Segment Anything (SAM) para el caso de uso de detección de agua en imágenes de inundaciones. A partir de un modelo preentrenado generalista, se entrenó un modelo especializado capaz de segmentar con mayor precisión cuerpos de agua en condiciones reales de desastre.
 

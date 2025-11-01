@@ -1,9 +1,9 @@
 ---
-title: "Data Augmentation Avanzado y Explicabilidad"
+title: "Cómo enseñar a una red a mirar con atención: Data Augmentation y Explicabilidad"
 date: 2025-10-18
 ---
 
-# Data Augmentation Avanzado y Explicabilidad
+# Cómo enseñar a una red a mirar con atención: Data Augmentation y Explicabilidad
 
 Esta práctica tuvo como objetivo aplicar técnicas avanzadas de aumento de datos (Data Augmentation) y explicabilidad visual (GradCAM e Integrated Gradients) utilizando el dataset *Oxford Flowers102* con modelos preentrenados de *Keras Applications*.
 

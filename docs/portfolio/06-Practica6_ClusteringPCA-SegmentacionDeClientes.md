@@ -1,9 +1,9 @@
 ---
-title: "Práctica 6: Clustering y PCA - Segmentación de Clientes"
+title: "Descubriendo patrones de clientes: segmentación con Clustering y PCA"
 date: 2025-09-15
 ---
 
-# Práctica 6: Clustering y PCA - Segmentación de Clientes
+# Descubriendo patrones de clientes: segmentación con Clustering y PCA
 
 En este proyecto, se aplicaron técnicas de aprendizaje no supervisado para segmentar a los clientes de un centro comercial, con el objetivo de generar insights para estrategias de marketing personalizadas.
 

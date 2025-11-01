@@ -1,9 +1,9 @@
 ---
-title: "Práctica 7: De Perceptrón a Redes Neuronales"
+title: "Cómo una red neuronal supera al perceptrón: el poder del aprendizaje no lineal"
 date: 2025-09-27
 ---
 
-# Práctica 7: De Perceptrón a Redes Neuronales
+# Cómo una red neuronal supera al perceptrón: el poder del aprendizaje no lineal
 
 En este ejercicio, se exploraron las bases de las redes neuronales, comenzando con el perceptrón simple para entender sus capacidades y limitaciones, y culminando en la implementación de redes neuronales multicapa (MLP) con herramientas profesionales como Scikit-learn, TensorFlow y PyTorch Lightning.
 

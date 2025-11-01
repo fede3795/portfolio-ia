@@ -1,9 +1,9 @@
 ---
-title: "Práctica: Backpropagation y Optimizadores"
+title: "Cómo enseñar a una red a aprender mejor: backpropagation y optimización en CIFAR-10"
 date: 2025-10-06
 ---
 
-# Práctica: Backpropagation y Optimizadores (MLP en CIFAR-10)
+# Cómo enseñar a una red a aprender mejor: backpropagation y optimización en CIFAR-10
 
 La práctica aborda el entrenamiento de un **perceptrón multicapa (MLP)** sobre **CIFAR-10** para estudiar el efecto de la **arquitectura**, la **regularización**, los **optimizadores** y los **callbacks** en el rendimiento. Se privilegió un flujo experimental reproducible, con registros en TensorBoard y evidencias en formato gráfico/tabular.
 

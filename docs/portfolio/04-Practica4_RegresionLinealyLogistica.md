@@ -1,9 +1,9 @@
 ---
-title: "Práctica 4: Regresión Lineal y Logística"
+title: "De los precios de casas a diagnósticos médicos: explorando la regresión lineal y logística"
 date: 2025-08-25
 ---
 
-# Práctica 4: Regresión Lineal y Logística
+# De los precios de casas a diagnósticos médicos: explorando la regresión lineal y logística
 
 Implementación de dos de los modelos más fundamentales del Machine Learning supervisado para resolver problemas de predicción numérica y de clasificación.
 

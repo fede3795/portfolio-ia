@@ -1,9 +1,9 @@
 ---
-title: "Práctica 2: Feature Engineering y Modelo Base"
+title: "Cómo mejorar predicciones en el Titanic con ingeniería de características"
 date: 2025-08-25
 ---
 
-# Práctica 2: Feature Engineering y Modelo Base con Scikit-learn
+# Cómo mejorar predicciones en el Titanic con ingeniería de características
 
 Esta práctica avanza desde el análisis exploratorio hacia la construcción de nuestro primer modelo predictivo para el dataset del Titanic.
 

@@ -1,9 +1,9 @@
 ---
-title: "Práctica 1: Análisis Exploratorio del Dataset del Titanic"
+title: "Titanic: descubriendo los patrones ocultos detrás de la supervivencia"
 date: 2025-08-24
 ---
 
-# Práctica 1: Análisis Exploratorio del Dataset del Titanic
+# Titanic: descubriendo los patrones ocultos detrás de la supervivencia
 
 Análisis inicial del famoso dataset de Kaggle para descubrir los factores que influyeron en la supervivencia de los pasajeros.
 

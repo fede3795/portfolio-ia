@@ -1,9 +1,9 @@
 ---
-title: "Práctica 9: CNNs y Transfer Learning con TensorFlow/Keras"
+title: "Cómo enseñar a una red a ver: CNNs y Transfer Learning con TensorFlow/Keras"
 date: 2025-10-25
 ---
 
-# Práctica 9: CNNs y Transfer Learning con TensorFlow/Keras
+# Cómo enseñar a una red a ver: CNNs y Transfer Learning con TensorFlow/Keras
 
 La práctica aborda la construcción de **CNNs desde cero** y la aplicación de **Transfer Learning** con modelos de `keras.applications`. Se trabaja sobre **CIFAR-10** y, en una segunda parte, se replica el flujo sobre datasets de dominio (PlantVillage y Cats vs Dogs). Se compara el rendimiento, se analizan curvas de entrenamiento/validación y se prueban variantes de arquitectura, fine-tuning y optimizadores.
 

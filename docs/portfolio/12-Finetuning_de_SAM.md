@@ -47,11 +47,11 @@ El análisis final incluyó una evaluación de fallos, mostrando una reducción 
 
 ???+ info "Evidencia 1: Curvas de entrenamiento (20 épocas)"
 
-![Curvas de Entrenamiento](../assets/p12_training_curves_22.png){ width="700" }
+    ![Curvas de Entrenamiento](../assets/p12_training_curves_22.png){ width="700" }
 
 ???+ info "Evidencia 2: Resultados y comparación de métricas"
 
-![Comparación Pretrained vs Fine-tuned](../assets/p12_eval_bars_25.png){ width="700" }
+    ![Comparación Pretrained vs Fine-tuned](../assets/p12_eval_bars_25.png){ width="700" }
 
 **Resultados finales:**
 

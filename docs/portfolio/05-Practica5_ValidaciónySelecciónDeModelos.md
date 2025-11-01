@@ -1,9 +1,9 @@
 ---
-title: "Práctica 5: Validación y Selección de Modelos"
+title: "Prediciendo el éxito académico: validación y selección del mejor modelo"
 date: 2025-09-01
 ---
 
-# Práctica 5: Validación y Selección de Modelos
+# Prediciendo el éxito académico: validación y selección del mejor modelo
 
 En esta práctica, se aplicaron técnicas de validación robusta y comparación sistemática de modelos para predecir el éxito académico estudiantil.
 

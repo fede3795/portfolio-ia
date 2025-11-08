@@ -55,11 +55,11 @@ El flujo de la práctica siguió tres etapas principales:
     El dataset estaba en formato YOLO estándar, sin necesidad de limpieza.
 
 ???+ info "Distribución de clases"
-    ![Distribución clases](../assets/p11_class_distribution_plot_08.png){ width="600" }
+    ![Distribución clases](../assets/p11_class_distribution_plot_09.png){ width="600" }
     Las clases más frecuentes luego fueron las mejor detectadas.
 
 ???+ info "Resultados del entrenamiento"
-    ![Training results](../assets/p11_training_results_13.png){ width="600" }
+    ![Training results](../assets/p11_finetune_training_curves_13.png){ width="600" }
     Las pérdidas disminuyeron de forma estable, sin sobreajuste fuerte.
 
 ???+ info "Evaluación del modelo fine-tuned"
@@ -67,7 +67,7 @@ El flujo de la práctica siguió tres etapas principales:
     El modelo quedó especializado en 6 clases de frutas específicas.
 
 ???+ info "Comparación Base vs Fine-tuned"
-    ![Comparación](../assets/p11_comparison_sample_11.png){ width="650" }
+    ![Comparación](../assets/p11_dataset_examples_grid_11.png){ width="650" }
     El modelo fine-tuned detectó más frutas con bounding boxes más precisas.
 
 ???+ info "Comparación de métricas"

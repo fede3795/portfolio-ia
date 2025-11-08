@@ -101,4 +101,4 @@ Si continúo este proyecto, mejoraría el dataset con más casos difíciles (fru
 - Ultralytics YOLOv8 Docs: https://docs.ultralytics.com
 - Norfair Tracker: https://github.com/tryolabs/norfair
 - Dataset utilizado: https://www.kaggle.com/datasets/lakshaytyagi01/fruit-detection
-- Notebook original de la práctica: (https://colab.research.google.com/drive/1TiFzMD3Qzlojs9-L8e4OQwwrnGU4Zgv9?usp=sharing)[https://colab.research.google.com/drive/1TiFzMD3Qzlojs9-L8e4OQwwrnGU4Zgv9?usp=sharing]
+- Notebook original de la práctica: [https://colab.research.google.com/drive/1TiFzMD3Qzlojs9-L8e4OQwwrnGU4Zgv9?usp=sharing](https://colab.research.google.com/drive/1TiFzMD3Qzlojs9-L8e4OQwwrnGU4Zgv9?usp=sharing)

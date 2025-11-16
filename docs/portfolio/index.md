@@ -19,5 +19,6 @@ date: 2025-01-01
 - Práctico 9: [Cómo enseñar a una red a ver: CNNs y Transfer Learning con TensorFlow/Keras](09-Practica9_CNNsyTransferLearningTensorFlowKeras.md)
 - Práctico 10: [Cómo enseñar a una red a mirar con atención: Data Augmentation y Explicabilidad](10-Practica10_DataAugmentationAvanzadoyExplicabilidad.md)
 - Práctico 11: [De detector genérico a sistema de inventario inteligente: Fine-tuning y tracking con YOLOv8](11-Practica_11.md)
-- Prácrico 12: [Especializando la mirada de SAM: segmentación de inundaciones mediante fine-tuning](12-Finetuning_de_SAM.md)
+- Práctico 12: [Especializando la mirada de SAM: segmentación de inundaciones mediante fine-tuning](12-Finetuning_de_SAM.md)
+- Práctico 13: [De TF-IDF a FinBERT: cómo mejorar la detección de tono financiero con Transformers](13-Practica13.md)
 

@@ -57,32 +57,32 @@ Finalmente, se compararon ambos métodos y se registraron los resultados visualm
 ## Evidencias
 
 ???+ info "Evidencia 1: Carga y exploración del dataset"
-  ![Carga del dataset y distribución inicial](../assets/p13_dataset_cargado_01.png){ width="640" }
+    ![Carga del dataset y distribución inicial](../assets/p13_dataset_cargado_01.png){ width="640" }
 
 ???+ info "Evidencia 2: Distribución de longitudes"
-  ![Distribución de longitudes de texto](../assets/p13_dist_longitudes_02.png){ width="480" }
+    ![Distribución de longitudes de texto](../assets/p13_dist_longitudes_02.png){ width="480" }
 
 ???+ info "Evidencia 3: Distribución de clases"
-  ![Distribución de clases](../assets/p13_dist_clases_03.png){ width="420" }
+    ![Distribución de clases](../assets/p13_dist_clases_03.png){ width="420" }
 
 ???+ info "Evidencia 4: Top n-grams y WordClouds"
-  ![WordCloud Bullish](../assets/p13_wordcloud_clase1_05.png){ width="600" }
+    ![WordCloud Bullish](../assets/p13_wordcloud_clase1_05.png){ width="600" }
 
 ???+ info "Evidencia 5: Proyecciones TF-IDF (PCA y UMAP)"
-  ![PCA sobre TF-IDF](../assets/p13_tfidf_pca_06.png){ width="420" }
-  ![UMAP sobre TF-IDF](../assets/p13_tfidf_umap_07.png){ width="420" }
+    ![PCA sobre TF-IDF](../assets/p13_tfidf_pca_06.png){ width="420" }
+    ![UMAP sobre TF-IDF](../assets/p13_tfidf_umap_07.png){ width="420" }
 
 ???+ info "Evidencia 6: Baseline TF-IDF + Logistic Regression"
-  ![Classification report](../assets/p13_lr_class_report_09.png){ width="520" }
-  ![Matriz de confusión](../assets/p13_lr_conf_matrix_10.png){ width="420" }
+    ![Classification report](../assets/p13_lr_class_report_09.png){ width="520" }
+    ![Matriz de confusión](../assets/p13_lr_conf_matrix_10.png){ width="420" }
 
 ???+ info "Evidencia 7: Fine-tuning de FinBERT"
-  ![Logs de entrenamiento FinBERT](../assets/p13_trainer_logs_11.png){ width="620" }
-  ![Resultados finales del modelo Transformer](../assets/p13_transformer_eval_12.png){ width="620" }
+    ![Logs de entrenamiento FinBERT](../assets/p13_trainer_logs_11.png){ width="620" }
+    ![Resultados finales del modelo Transformer](../assets/p13_transformer_eval_12.png){ width="620" }
 
 ???+ info "Evidencia 8: Comparación final y métricas"
-  ![Curvas de validación](../assets/p13_val_metrics_13.png){ width="520" }
-  ![Comparación Baseline vs Transformer](../assets/p13_comparacion_modelos_14.png){ width="520" }
+    ![Curvas de validación](../assets/p13_val_metrics_13.png){ width="520" }
+    ![Comparación Baseline vs Transformer](../assets/p13_comparacion_modelos_14.png){ width="520" }
 
 ---
 

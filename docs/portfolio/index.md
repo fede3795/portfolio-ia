@@ -7,7 +7,6 @@ date: 2025-01-01
 
 
 
-- Plantilla: [plantilla.md](plantilla.md)
 - Primera entrada: [01-primera-entrada.md](01-primera-entrada.md)
 - Práctico 1: [Titanic: descubriendo los patrones ocultos detrás de la supervivencia](02-Práctica1_EDA_Titanic.md)
 - Práctico 2: [Cómo mejorar predicciones en el Titanic con ingeniería de características](03-Practica2_FeatureEngineering.md)
@@ -21,5 +20,6 @@ date: 2025-01-01
 - Práctico 11: [De detector genérico a sistema de inventario inteligente: Fine-tuning y tracking con YOLOv8](11-Practica_11.md)
 - Práctico 12: [Especializando la mirada de SAM: segmentación de inundaciones mediante fine-tuning](12-Finetuning_de_SAM.md)
 - Práctico 13: [De TF-IDF a FinBERT: cómo mejorar la detección de tono financiero con Transformers](13-Practica13.md)
+- Práctico 14: [Dominar un LLM paso a paso: temperatura, ejemplos, estructuración y extracción](14-Practico14.md)
 - Práctico 15: [Construyendo un agente de soporte inteligente: de RAG a herramientas dinámicas con LangGraph](15-Practica15.md)
 

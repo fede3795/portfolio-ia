@@ -110,16 +110,16 @@ Logré capturar evidencias del DAG completo, del dataset creado y del inicio del
 
 ## Evidencias
 
-???+ 👉 Evidencia 1: Pipeline introductorio funcionando  
+???+ info "👉 Evidencia 1: Pipeline introductorio funcionando"
     ![Evidencia build-sentence output](../assets/p16_intro_pipeline_output_06.png){ width="700" }
 
-???+ 👉 Evidencia 2: DAG de la pipeline de AutoML  
+???+ info "👉 Evidencia 2: DAG de la pipeline de AutoML"  
     ![Pipeline AutoML DAG](../assets/p16_automl_beans_pipeline_07.png){ width="700" }
 
-???+ 👉 Evidencia 3: Artefacto dataset creado correctamente  
+???+ info "👉 Evidencia 3: Artefacto dataset creado correctamente"
     ![Dataset Artefact](../assets/p16_beans_dataset_artifact_08.png){ width="700" }
 
-???+ 👉 Evidencia 4: Entrenamiento AutoML en ejecución  
+???+ info "👉 Evidencia 4: Entrenamiento AutoML en ejecución"  
     ![AutoML Running](../assets/p16_beans_training_running_09.png){ width="700" }
 
 Estas evidencias demuestran que el pipeline se inició de forma completa y que Vertex AI está gestionando todos los pasos correctamente.

@@ -5,11 +5,16 @@ date: 2025-08-24
 
 # Acerca de mí
 
-Nombre: Federico Silvera. <br>
-Bio: Estudiante de Ingeñería en Informática apasionado por la tecnología y la resolución de problemas. Me estoy iniciando en el mundo de la Inteligencia Artificial para aprender a transformar datos en conocimiento y soluciones prácticas.
+Soy **Federico Silvera**, estudiante avanzado de **Ingeniería en Informática** en la Universidad Católica del Uruguay. Me apasiona la tecnología, el aprendizaje continuo y el diseño de soluciones que aporten valor real.  
+
+Actualmente estoy profundizando en el área de **Inteligencia Artificial**, con especial interés en la aplicación práctica de modelos y técnicas de machine learning para transformar datos en conocimiento y mejoras concretas en procesos o productos.
 
 ## Habilidades
-- Tengo conocimienntos en Java, .Net y React
+
+- Desarrollo en **Java**, **.NET** y **React**  
+- Conocimientos en gestión de proyectos, metodologías ágiles y prácticas de MLOps  
+- Experiencia trabajando con servicios cloud y herramientas de análisis de datos  
 
 ## Contacto
-- federico.silverag@correo.ucu.edu.uy
+
+- 📧 **federico.silverag@correo.ucu.edu.uy**

@@ -22,6 +22,6 @@ date: 2025-01-01
 - Práctico 13: [De TF-IDF a FinBERT: cómo mejorar la detección de tono financiero con Transformers](13-Practica13.md)
 - Práctico 14: [Dominar un LLM paso a paso: temperatura, ejemplos, estructuración y extracción](14-Practico14.md)
 - Práctico 15: [Construyendo un agente de soporte inteligente: de RAG a herramientas dinámicas con LangGraph](15-Practica15.md)
-- Práctico 16: 
+- Práctico 16: [Primeros pasos en Google Cloud: gestionando proyectos, permisos y APIs](16-Practica16.md)
 - Práctico 17: [De datos crudos a modelo desplegado: construyendo un pipeline de ML con AutoML y Vertex AI](17-Practica17.md)
 

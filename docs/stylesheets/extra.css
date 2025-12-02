@@ -52,3 +52,21 @@
   transform: translateY(-3px);
   box-shadow: 0 14px 35px rgba(0,0,0,0.15);
 }
+/* Cards del índice del portafolio */
+.md-typeset .grid.cards > ul > li {
+  border-radius: 12px;
+  padding: 1rem 1.2rem;
+  border: 1px solid rgba(0,0,0,0.06);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  transition: 0.15s ease;
+}
+
+.md-typeset .grid.cards > ul > li:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.12);
+}
+
+.md-typeset .grid.cards a {
+  font-weight: 600;
+}
+

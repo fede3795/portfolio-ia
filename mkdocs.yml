@@ -30,7 +30,7 @@ theme:
     text: "Inter"
     code: "Fira Code"
   favicon: assets/favicon.png
-  logo: ./docs/assets/logoFS.jpg
+  logo: assets/logoFS.jpg
 
 extra:
   social:

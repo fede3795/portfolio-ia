@@ -1,4 +1,4 @@
-site_name: "Portfolio"
+site_name: "Portafolio – Federico Silvera"
 site_url: "https://fede3795.github.io/portfolio-ia/"
 
 theme:
@@ -29,8 +29,8 @@ theme:
   font:
     text: "Inter"
     code: "Fira Code"
-  favicon: assets/favicon.png
   logo: assets/logoFS.jpg
+  favicon: assets/favicon.png
 
 extra:
   social:

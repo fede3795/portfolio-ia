@@ -12,7 +12,6 @@ A continuación se presenta el listado completo de prácticas, organizadas por U
 ## 🟦 UT1 — Machine Learning Clásico  
 Prácticas: 1, 2, 4, 5 y 6
 
-- Primera entrada: [01-primera-entrada.md](01-primera-entrada.md)
 - Práctico 1: [Titanic: descubriendo los patrones ocultos detrás de la supervivencia](02-Práctica1_EDA_Titanic.md)
 - Práctico 2: [Cómo mejorar predicciones en el Titanic con ingeniería de características](03-Practica2_FeatureEngineering.md)
 - Práctico 4: [De los precios de casas a diagnósticos médicos: explorando la regresión lineal y logística](04-Practica4_RegresionLinealyLogistica.md)

@@ -1,16 +1,54 @@
 site_name: "Portfolio"
+site_url: "https://fede3795.github.io/portfolio-ia/"
+
 theme:
   name: material
   language: es
   features:
+    - navigation.tabs
     - navigation.sections
     - navigation.indexes
+    - navigation.top
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: teal
+      toggle:
+        icon: material/weather-night
+        name: Modo oscuro
+    - scheme: slate
+      primary: indigo
+      accent: teal
+      toggle:
+        icon: material/white-balance-sunny
+        name: Modo claro
+  font:
+    text: "Inter"
+    code: "Fira Code"
+  favicon: assets/favicon.png
+  logo: assets/logo.png  # si no existe, no pasa nada
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/fede3795
+    - icon: material/school
+      link: https://ucu.edu.uy
+
+extra_css:
+  - stylesheets/extra.css
+
 plugins:
   - search
   - awesome-pages
   - git-revision-date-localized:
       fallback_to_build_date: true
   - glightbox
+
 markdown_extensions:
   - admonition
   - attr_list

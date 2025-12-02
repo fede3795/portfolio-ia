@@ -31,8 +31,9 @@ Una colección completa y progresiva de prácticas donde apliqué técnicas de:
 - :material-scatter-plot: **Clustering y reducción de dimensionalidad**  
   K-means, PCA y análisis exploratorio.
 
-- :material-brain-circuit: **Deep Learning y Redes Neuronales**  
+- :material-brain: **Deep Learning y Redes Neuronales**  
   Perceptrón, MLP, CNN, transfer learning y explicabilidad.
+
 
 - :material-image: **Visión por computadora**  
   Entrenamiento de YOLOv8, tracking, segmentación con SAM.

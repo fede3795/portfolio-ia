@@ -4,7 +4,7 @@ hide:
   - toc
 ---
 
-<div class="hero" markdown>
+<div class="hero" markdown="1">
 
 # Portafolio de Inteligencia Artificial  
 ### Federico Silvera
@@ -23,7 +23,7 @@ Aquí recopilo de forma organizada todas las prácticas realizadas durante el cu
 
 Una colección completa y progresiva de prácticas donde apliqué técnicas de:
 
-<div class="grid cards" markdown>
+<div class="grid cards" markdown="1">
 
 - :material-brain: **Machine Learning**  
   Regresión, clasificación, validación de modelos, métricas y comparaciones.
@@ -69,4 +69,3 @@ Este espacio busca:
 ## ✨ Nota final
 
 Este portafolio está construido con **MkDocs Material**, aplicando buenas prácticas de documentación técnica, diseño limpio y navegación clara.
-
